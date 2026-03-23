@@ -69,7 +69,7 @@ namespace _10._3WinformsCArs
                 txtMODEL.Text = car.Model;
                 txtYEAR.Text = car.Year.ToString();
                 txtPrice.Text = car.Price.ToString();
-                btnSubmit.Enabled = true;
+                btnSubmit.Enabled = false;
                 
             }
         }
